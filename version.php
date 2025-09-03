@@ -22,8 +22,8 @@
  */
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2024100701;         // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2024100701;         // Requires Moodle 4.5 (Build: 20241001)
+$plugin->version   = 3024100701;         // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires  = 2022100701;         // Requires Moodle 4.5 (Build: 20241001)
 $plugin->component = 'block_student_info';  // Full name of the plugin
 $plugin->maturity  = MATURITY_STABLE;    // Plugin maturity level
 $plugin->release   = '4.5.1';            // Plugin release name
