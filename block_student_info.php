@@ -39,7 +39,7 @@ class block_student_info extends block_base {
             $groups = groups_get_all_groups($COURSE->id, $USER->id);
 
             if (!empty($groups)) {
-                $groupnames = array_map(function($group) {
+                $groupnames = array_map(function ($group) {
                     return html_writer::tag('strong', $group->name);
                 }, $groups);
                 $groupname = implode(', ', $groupnames);

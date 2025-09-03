@@ -16,14 +16,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 $capabilities = [
-    'block/student_info:addinstance' => array(
+    'block/student_info:addinstance' => [
         'captype' => 'write',
         'contextlevel' => CONTEXT_BLOCK,
-        'archetypes' => array(
+        'archetypes' => [
             'teacher' => CAP_ALLOW,
             'editingteacher' => CAP_ALLOW,
-            'manager' => CAP_ALLOW
-        ),
-        'clonepermissionsfrom' => 'moodle/site:manageblocks'
-    ),
+            'manager' => CAP_ALLOW,
+        ],
+        'clonepermissionsfrom' => 'moodle/site:manageblocks',
+    ],
 ];

@@ -13,16 +13,17 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
 /**
  * Version details
  *
- * @package    report
+ * @package    block_student_info
  * @copyright  2014 Carlos Andre
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 3024100701;         // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 3025090301;         // The current plugin version (Date: YYYYMMDDXX)
 $plugin->requires  = 2022100701;         // Requires Moodle 4.5 (Build: 20241001)
 $plugin->component = 'block_student_info';  // Full name of the plugin
 $plugin->maturity  = MATURITY_STABLE;    // Plugin maturity level
